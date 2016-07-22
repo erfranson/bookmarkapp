@@ -6,6 +6,7 @@ source 'https://rubygems.org'
  # #1
  group :production do
    gem 'pg'
+   gem 'rails_12factor'
  end
 
  # #2
@@ -23,3 +24,5 @@ source 'https://rubygems.org'
  gem 'jquery-rails'
  # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
  gem 'turbolinks'
+
+ gem 'devise'
