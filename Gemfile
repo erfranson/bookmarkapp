@@ -26,3 +26,7 @@ source 'https://rubygems.org'
  gem 'turbolinks'
 
  gem 'devise'
+
+gem 'bootstrap-sass', '~> 3.2.0'
+
+gem 'autoprefixer-rails'
