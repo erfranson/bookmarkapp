@@ -1,6 +1,11 @@
-<h1>All Topics</h1>
+<div align="center">
+  <h1>All Blocmarks</h1>
+</div>
+<div align="center">
+  <%= link_to "New Topic", new_topic_path, class: 'btn btn-success' %>
+</div>
 <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-12" align="center">
     <% @topics.each do |topic| %>
     <div class="media">
         <div class="media-body">
