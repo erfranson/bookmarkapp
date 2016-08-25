@@ -13,6 +13,9 @@ source 'https://rubygems.org'
  group :development do
    gem 'sqlite3'
  end
+ group :development, :test do
+   gem 'byebug'
+ end
 
  # Use SCSS for stylesheets
  gem 'sass-rails', '~> 5.0'
@@ -27,6 +30,6 @@ source 'https://rubygems.org'
 
  gem 'devise'
 
-gem 'bootstrap-sass', '~> 3.2.0'
+ gem 'bootstrap-sass', '~> 3.2.0'
 
-gem 'autoprefixer-rails'
+ gem 'autoprefixer-rails'
